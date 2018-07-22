@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-
+import Button from "./button";
+import NumberInput from "./number-input";
 import "./App.css";
 
 class App extends Component {
@@ -20,6 +21,7 @@ class App extends Component {
         </label>
         <button>Guess</button>
         <div className="userGuess" />
+        <Button />
       </div>
     );
   }
